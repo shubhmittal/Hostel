@@ -7,7 +7,6 @@ var session = require('express-session');
 
 app.set('view engine', 'ejs');
 // mongoose.connect('mongodb://localhost/Nimbus');
-mongoose.connect('mongodb+srv://shubhamdb:6bIYWh157psRcGNN@cluster0-xzglf.mongodb.net/mm?');
 var db = mongoose.connection;
 
 app.use(bodyParser.urlencoded({ extended: true }))
